@@ -1,5 +1,5 @@
 import React from 'react'
-import {picture} from '../assets'
+import {picture3, picture4} from '../assets'
 import Carousel from './Carousel'
 import { ImageCard } from './ImageCard'
 import {ArrowLeft } from './icons'
@@ -10,8 +10,8 @@ function Message() {
 
   // customize your own picture, title and subtext. You can also add more picture.
   const pictures = [
-    { Image: picture, title: 'September 3, 2024', description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, possimus!"},   
-    { Image: picture, title: 'September 3, 2024', description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, possimus!"},
+    { Image: picture4, title: 'January 17, 2025', description: "I remember reading this specific text and feeling so giddy. Just everything about it, being little Mimi's father and calling you mom and you rizzing me up. It just made me think of our future together and i dont know, it made me so happy."},   
+    { Image: picture3, title: 'July 29, 2022', description: "It's so cute looking back and seeing how obvious it was we had crushes on each other. Three years later and Valentine's Day is in my top 3 because of you Louise. It's the day where we just get to be with each other and be all lovey dovey."},
 
   ]
   return (

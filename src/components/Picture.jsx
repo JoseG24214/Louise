@@ -1,5 +1,5 @@
 import React from 'react'
-import { picture } from '../assets'
+import { picture, picture2 } from '../assets'
 import Carousel from './Carousel'
 import { ImageCard } from './ImageCard'
 import {ArrowLeft } from './icons'
@@ -9,8 +9,8 @@ function Picture() {
   const navigate = useNavigate();
 
   const pictures = [
-    { Image: picture, title: 'September 3, 2024', description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, possimus!"},   
-    { Image: picture, title: 'September 3, 2024', description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, possimus!"},
+    { Image: picture, title: 'September 2, 2024', description: "Our first photo booth of what I hope will be many more to come, I loved this day so much my baby"},   
+    { Image: picture2, title: 'February 14, 2023', description: "And our first Valentine's Day together, I remember being so nervous spending it with you and feeling like my heart was going to burst out of my chest, and I adored it because we spent it together."},
 
   ]
   return (
